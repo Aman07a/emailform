@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'emailform';
 
-  email: string = '';
+  email: string | any = '';
 }
